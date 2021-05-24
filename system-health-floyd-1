@@ -1,0 +1,158 @@
+Mon May 24 05:40:46 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+05:40:47 load average: 3.39, 1.61, 1.30
+-----------------------------------------------------------------------/bin/sh:     
+compute00-floyd-dal10     
+193     
+05:40:49 load average: 22.24, 22.95, 23.04
+-----------------------------------------------------------------------     
+control01-floyd-dal10     
+34     
+05:40:49 load average: 2.91, 3.09, 3.52
+-----------------------------------------------------------------------     
+control00-floyd-dal10     
+34     
+05:40:49 load average: 2.98, 3.63, 3.95
+-----------------------------------------------------------------------     
+control02-floyd-dal10     
+34     
+05:40:49 load average: 3.89, 3.52, 3.48
+-----------------------------------------------------------------------     
+compute01-floyd-dal10     
+242     
+05:40:49 load average: 7.21, 8.54, 10.16
+-----------------------------------------------------------------------     
+compute02-floyd-dal10     
+272     
+05:40:51 load average: 8.25, 9.51, 9.72
+-----------------------------------------------------------------------     
+compute05-floyd-dal10     
+254     
+05:40:51 load average: 10.48, 9.67, 10.56
+-----------------------------------------------------------------------     
+compute06-floyd-dal10     
+250     
+05:40:51 load average: 7.42, 7.84, 7.78
+-----------------------------------------------------------------------     
+compute04-floyd-dal10     
+914     
+05:40:51 load average: 9.02, 8.38, 8.58
+-----------------------------------------------------------------------     
+compute03-floyd-dal10     
+214     
+05:40:51 load average: 8.67, 8.23, 8.53
+-----------------------------------------------------------------------     
+compute10-floyd-dal10     
+48     
+05:40:52 load average: 8.97, 9.21, 9.16
+-----------------------------------------------------------------------     
+compute07-floyd-dal10     
+245     
+05:40:52 load average: 11.70, 12.59, 12.96
+-----------------------------------------------------------------------     
+compute09-floyd-dal10     
+49     
+05:40:53 load average: 4.85, 4.52, 4.31
+-----------------------------------------------------------------------     
+compute11-floyd-dal10     
+45     
+05:40:53 load average: 4.97, 4.97, 4.15
+-----------------------------------------------------------------------     
+compute08-floyd-dal10     
+300     
+05:40:53 load average: 18.57, 18.15, 17.75
+-----------------------------------------------------------------------     
+compute12-floyd-dal10     
+55     
+05:40:53 load average: 6.19, 5.83, 6.05
+-----------------------------------------------------------------------     
+compute13-floyd-dal10     
+39     
+05:40:54 load average: 2.04, 2.04, 2.07
+-----------------------------------------------------------------------     
+compute14-floyd-dal10     
+45     
+05:40:55 load average: 7.07, 6.23, 5.85
+-----------------------------------------------------------------------     
+compute15-floyd-dal10     
+34     
+05:40:56 load average: 3.90, 5.98, 6.14
+-----------------------------------------------------------------------     
+compute16-floyd-dal10     
+55     
+05:40:56 load average: 6.63, 6.50, 6.58
+-----------------------------------------------------------------------     
+compute18-floyd-dal10     
+50     
+05:40:56 load average: 6.60, 5.79, 4.62
+-----------------------------------------------------------------------     
+compute17-floyd-dal10     
+49     
+05:40:56 load average: 5.80, 4.85, 4.88
+-----------------------------------------------------------------------     
+compute19-floyd-dal10     
+51     
+05:40:56 load average: 4.75, 4.11, 4.05
+-----------------------------------------------------------------------     
+compute21-floyd-dal10     
+50     
+05:40:57 load average: 2.21, 2.20, 2.17
+-----------------------------------------------------------------------     
+compute22-floyd-dal10     
+33     
+05:40:58 load average: 0.10, 0.19, 0.25
+-----------------------------------------------------------------------     
+compute20-floyd-dal10     
+56     
+05:40:58 load average: 6.70, 5.79, 5.60
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+control00-floyd-dal10 | CHANGED | rc=0 >>
+Cluster name: tripleo_cluster
+Cluster Summary:
+  * Stack: corosync
+  * Current DC: control00-floyd-dal10 (version 2.0.3-5.el8_2.1-4b1f869f0f) - partition with quorum
+  * Last updated: Mon May 24 05:40:59 2021
+  * Last change:  Fri May 21 11:02:13 2021 by hacluster via crmd on control00-floyd-dal10
+  * 15 nodes configured
+  * 44 resource instances configured
+
+Node List:
+  * Online: [ control00-floyd-dal10 control01-floyd-dal10 control02-floyd-dal10 ]
+  * GuestOnline: [ galera-bundle-0@control00-floyd-dal10 galera-bundle-1@control01-floyd-dal10 galera-bundle-2@control02-floyd-dal10 ovn-dbs-bundle-0@control00-floyd-dal10 ovn-dbs-bundle-1@control01-floyd-dal10 ovn-dbs-bundle-2@control02-floyd-dal10 rabbitmq-bundle-0@control00-floyd-dal10 rabbitmq-bundle-1@control01-floyd-dal10 rabbitmq-bundle-2@control02-floyd-dal10 redis-bundle-0@control00-floyd-dal10 redis-bundle-1@control01-floyd-dal10 redis-bundle-2@control02-floyd-dal10 ]
+
+Full List of Resources:
+  * Container bundle set: galera-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-mariadb:pcmklatest]:
+    * galera-bundle-0	(ocf::heartbeat:galera):	Master control00-floyd-dal10
+    * galera-bundle-1	(ocf::heartbeat:galera):	Master control01-floyd-dal10
+    * galera-bundle-2	(ocf::heartbeat:galera):	Master control02-floyd-dal10
+  * Container bundle set: rabbitmq-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-rabbitmq:pcmklatest]:
+    * rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started control00-floyd-dal10
+    * rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started control01-floyd-dal10
+    * rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started control02-floyd-dal10
+  * Container bundle set: redis-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-redis:pcmklatest]:
+    * redis-bundle-0	(ocf::heartbeat:redis):	Master control00-floyd-dal10
+    * redis-bundle-1	(ocf::heartbeat:redis):	Slave control01-floyd-dal10
+    * redis-bundle-2	(ocf::heartbeat:redis):	Slave control02-floyd-dal10
+  * ip-10.38.228.4	(ocf::heartbeat:IPaddr2):	Started control01-floyd-dal10
+  * ip-150.239.59.4	(ocf::heartbeat:IPaddr2):	Started control00-floyd-dal10
+  * ip-10.38.228.81	(ocf::heartbeat:IPaddr2):	Started control01-floyd-dal10
+  * Container bundle set: haproxy-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-haproxy:pcmklatest]:
+    * haproxy-bundle-podman-0	(ocf::heartbeat:podman):	Started control00-floyd-dal10
+    * haproxy-bundle-podman-1	(ocf::heartbeat:podman):	Started control01-floyd-dal10
+    * haproxy-bundle-podman-2	(ocf::heartbeat:podman):	Started control02-floyd-dal10
+  * Container bundle set: ovn-dbs-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-ovn-northd:pcmklatest]:
+    * ovn-dbs-bundle-0	(ocf::ovn:ovndb-servers):	Master control00-floyd-dal10
+    * ovn-dbs-bundle-1	(ocf::ovn:ovndb-servers):	Slave control01-floyd-dal10
+    * ovn-dbs-bundle-2	(ocf::ovn:ovndb-servers):	Slave control02-floyd-dal10
+  * ip-10.38.228.91	(ocf::heartbeat:IPaddr2):	Started control00-floyd-dal10
+  * Container bundle: openstack-cinder-volume [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-cinder-volume:pcmklatest]:
+    * openstack-cinder-volume-podman-0	(ocf::heartbeat:podman):	Started control00-floyd-dal10
+
+Daemon Status:
+  corosync: active/enabled
+  pacemaker: active/enabled
+  pcsd: active/enabled
+----------------------------------------------------------------------------

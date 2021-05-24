@@ -1,0 +1,90 @@
+Mon May 24 05:41:00 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+05:41:01 load average: 3.02, 1.62, 1.30
+-----------------------------------------------------------------------/bin/sh:     
+control01-dagoba-dfw3     
+18     
+05:41:03 load average: 1.53, 1.30, 1.17
+-----------------------------------------------------------------------     
+control00-dagoba-dfw3     
+18     
+05:41:03 load average: 2.30, 1.77, 1.57
+-----------------------------------------------------------------------     
+compute00-dagoba-dfw3     
+111     
+05:41:03 load average: 8.59, 8.49, 8.13
+-----------------------------------------------------------------------     
+compute01-dagoba-dfw3     
+127     
+05:41:03 load average: 12.73, 13.73, 14.22
+-----------------------------------------------------------------------     
+control02-dagoba-dfw3     
+18     
+05:41:03 load average: 0.76, 0.91, 0.97
+-----------------------------------------------------------------------     
+compute02-dagoba-dfw3     
+115     
+05:41:05 load average: 15.93, 15.74, 15.33
+-----------------------------------------------------------------------     
+compute04-dagoba-dfw3     
+21     
+05:41:05 load average: 0.07, 0.14, 0.26
+-----------------------------------------------------------------------     
+compute03-dagoba-dfw3     
+13     
+05:41:05 load average: 0.00, 0.04, 0.12
+-----------------------------------------------------------------------     
+compute05-dagoba-dfw3     
+23     
+05:41:05 load average: 0.22, 0.19, 0.20
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+control00-dagoba-dfw3 | CHANGED | rc=0 >>
+Cluster name: tripleo_cluster
+Cluster Summary:
+  * Stack: corosync
+  * Current DC: control00-dagoba-dfw3 (version 2.0.3-5.el8_2.4-4b1f869f0f) - partition with quorum
+  * Last updated: Mon May 24 05:41:07 2021
+  * Last change:  Tue May 11 20:44:55 2021 by ovn-dbs-bundle-0 via crm_attribute on control02-dagoba-dfw3
+  * 15 nodes configured
+  * 44 resource instances configured
+
+Node List:
+  * Online: [ control00-dagoba-dfw3 control01-dagoba-dfw3 control02-dagoba-dfw3 ]
+  * GuestOnline: [ galera-bundle-0@control00-dagoba-dfw3 galera-bundle-1@control01-dagoba-dfw3 galera-bundle-2@control02-dagoba-dfw3 ovn-dbs-bundle-0@control02-dagoba-dfw3 ovn-dbs-bundle-1@control01-dagoba-dfw3 ovn-dbs-bundle-2@control00-dagoba-dfw3 rabbitmq-bundle-0@control00-dagoba-dfw3 rabbitmq-bundle-1@control01-dagoba-dfw3 rabbitmq-bundle-2@control02-dagoba-dfw3 redis-bundle-0@control00-dagoba-dfw3 redis-bundle-1@control01-dagoba-dfw3 redis-bundle-2@control02-dagoba-dfw3 ]
+
+Full List of Resources:
+  * Container bundle set: galera-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-mariadb:pcmklatest]:
+    * galera-bundle-0	(ocf::heartbeat:galera):	Master control00-dagoba-dfw3
+    * galera-bundle-1	(ocf::heartbeat:galera):	Master control01-dagoba-dfw3
+    * galera-bundle-2	(ocf::heartbeat:galera):	Master control02-dagoba-dfw3
+  * Container bundle set: rabbitmq-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-rabbitmq:pcmklatest]:
+    * rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started control00-dagoba-dfw3
+    * rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started control01-dagoba-dfw3
+    * rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started control02-dagoba-dfw3
+  * Container bundle set: redis-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-redis:pcmklatest]:
+    * redis-bundle-0	(ocf::heartbeat:redis):	Master control00-dagoba-dfw3
+    * redis-bundle-1	(ocf::heartbeat:redis):	Slave control01-dagoba-dfw3
+    * redis-bundle-2	(ocf::heartbeat:redis):	Slave control02-dagoba-dfw3
+  * ip-10.122.28.4	(ocf::heartbeat:IPaddr2):	Started control00-dagoba-dfw3
+  * ip-72.32.49.4	(ocf::heartbeat:IPaddr2):	Started control01-dagoba-dfw3
+  * ip-10.122.28.95	(ocf::heartbeat:IPaddr2):	Started control00-dagoba-dfw3
+  * Container bundle set: haproxy-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-haproxy:pcmklatest]:
+    * haproxy-bundle-podman-0	(ocf::heartbeat:podman):	Started control00-dagoba-dfw3
+    * haproxy-bundle-podman-1	(ocf::heartbeat:podman):	Started control01-dagoba-dfw3
+    * haproxy-bundle-podman-2	(ocf::heartbeat:podman):	Started control02-dagoba-dfw3
+  * Container bundle set: ovn-dbs-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-ovn-northd:pcmklatest]:
+    * ovn-dbs-bundle-0	(ocf::ovn:ovndb-servers):	Master control02-dagoba-dfw3
+    * ovn-dbs-bundle-1	(ocf::ovn:ovndb-servers):	Slave control01-dagoba-dfw3
+    * ovn-dbs-bundle-2	(ocf::ovn:ovndb-servers):	Slave control00-dagoba-dfw3
+  * ip-10.122.28.64	(ocf::heartbeat:IPaddr2):	Started control02-dagoba-dfw3
+  * Container bundle: openstack-cinder-volume [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-cinder-volume:pcmklatest]:
+    * openstack-cinder-volume-podman-0	(ocf::heartbeat:podman):	Started control00-dagoba-dfw3
+
+Daemon Status:
+  corosync: active/enabled
+  pacemaker: active/enabled
+  pcsd: active/enabled
+----------------------------------------------------------------------------
