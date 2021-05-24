@@ -1,0 +1,76 @@
+CEPH Health from each cluster: (Stage, NA, APAC, EMEA) DATE: Mon May 24 05:40:01 UTC 2021
+-----------------------------------
+# Status of CEPH storage on floyd #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    hdd        35 TiB      20 TiB      15 TiB       15 TiB         43.03 
+    ssd       419 TiB     236 TiB     183 TiB      184 TiB         43.81 
+    TOTAL     454 TiB     255 TiB     198 TiB      199 TiB         43.75 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      31 TiB       4.04M      92 TiB     32.33        64 TiB 
+    cinder_pool      2      36 TiB       9.66M     106 TiB     35.38        64 TiB 
+    nova_pool        3     115 MiB       2.27k     380 MiB         0        64 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on scooter #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    ssd       454 TiB     260 TiB     193 TiB      194 TiB         42.72 
+    TOTAL     454 TiB     260 TiB     193 TiB      194 TiB         42.72 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      27 TiB       3.49M      80 TiB     28.76        66 TiB 
+    cinder_pool      2      38 TiB      10.38M     114 TiB     36.51        66 TiB 
+    nova_pool        3     149 MiB       2.93k     465 MiB         0        66 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on beaker #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    ssd       454 TiB     275 TiB     178 TiB      179 TiB         39.40 
+    TOTAL     454 TiB     275 TiB     178 TiB      179 TiB         39.40 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      26 TiB       3.47M      79 TiB     27.43        70 TiB 
+    cinder_pool      2      33 TiB       9.05M      99 TiB     32.02        70 TiB 
+    nova_pool        3     161 MiB       3.13k     501 MiB         0        70 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on animal #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    hdd       140 TiB      77 TiB      62 TiB       62 TiB         44.69 
+    ssd       210 TiB     119 TiB      90 TiB       90 TiB         43.06 
+    TOTAL     349 TiB     197 TiB     152 TiB      153 TiB         43.71 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      45 TiB       5.86M     134 TiB     49.94        45 TiB 
+    cinder_pool      2     6.0 TiB       1.62M      18 TiB     11.88        45 TiB 
+    nova_pool        3      76 GiB      10.64k     231 GiB      0.17        45 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on dagoba #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED       RAW USED     %RAW USED 
+    hdd       279 TiB     192 TiB     87 TiB       87 TiB         31.28 
+    TOTAL     279 TiB     192 TiB     87 TiB       87 TiB         31.28 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      27 TiB       3.59M      82 TiB     33.54        54 TiB 
+    cinder_pool      2     1.7 TiB     481.06k     5.2 TiB      3.08        54 TiB 
+    nova_pool        3     505 MiB         235     1.5 GiB         0        54 TiB 
+--------------------------------------------------------------------------
+Note: if you see any issues on the Ceph cluster, Please reach out immediately to Novello Admin
+----------------------------------------------------------------------------

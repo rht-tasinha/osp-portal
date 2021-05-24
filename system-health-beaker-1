@@ -1,0 +1,134 @@
+Mon May 24 05:40:01 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+05:40:02 load average: 0.54, 0.97, 1.09
+-----------------------------------------------------------------------/bin/sh:     
+control02-beaker-tok02     
+28     
+05:40:09 load average: 8.88, 8.97, 8.40
+-----------------------------------------------------------------------     
+control00-beaker-tok02     
+28     
+05:40:09 load average: 5.51, 7.12, 6.75
+-----------------------------------------------------------------------     
+control01-beaker-tok02     
+28     
+05:40:09 load average: 9.39, 7.88, 7.48
+-----------------------------------------------------------------------     
+compute01-beaker-tok02     
+851     
+05:40:10 load average: 33.40, 33.77, 33.66
+-----------------------------------------------------------------------     
+compute00-beaker-tok02     
+716     
+05:40:10 load average: 34.17, 33.10, 31.68
+-----------------------------------------------------------------------     
+compute02-beaker-tok02     
+666     
+05:40:17 load average: 38.56, 39.31, 39.44
+-----------------------------------------------------------------------     
+compute04-beaker-tok02     
+709     
+05:40:17 load average: 45.35, 45.45, 46.01
+-----------------------------------------------------------------------     
+compute03-beaker-tok02     
+814     
+05:40:18 load average: 39.39, 37.94, 36.43
+-----------------------------------------------------------------------     
+compute06-beaker-tok02     
+662     
+05:40:18 load average: 26.20, 25.72, 24.40
+-----------------------------------------------------------------------     
+compute07-beaker-tok02     
+165     
+05:40:24 load average: 39.31, 38.40, 38.98
+-----------------------------------------------------------------------     
+compute08-beaker-tok02     
+152     
+05:40:24 load average: 42.93, 42.58, 41.85
+-----------------------------------------------------------------------     
+compute09-beaker-tok02     
+165     
+05:40:25 load average: 47.55, 43.33, 39.41
+-----------------------------------------------------------------------     
+compute10-beaker-tok02     
+159     
+05:40:25 load average: 43.51, 43.95, 42.39
+-----------------------------------------------------------------------     
+compute14-beaker-tok02     
+151     
+05:40:30 load average: 38.52, 41.66, 43.59
+-----------------------------------------------------------------------     
+compute11-beaker-tok02     
+150     
+05:40:31 load average: 42.98, 41.59, 44.02
+-----------------------------------------------------------------------     
+compute12-beaker-tok02     
+122     
+05:40:31 load average: 34.65, 33.40, 30.69
+-----------------------------------------------------------------------     
+compute13-beaker-tok02     
+167     
+05:40:32 load average: 41.67, 45.84, 46.33
+-----------------------------------------------------------------------     
+compute15-beaker-tok02     
+149     
+05:40:37 load average: 44.56, 42.25, 40.02
+-----------------------------------------------------------------------     
+compute16-beaker-tok02     
+154     
+05:40:38 load average: 43.44, 42.41, 40.69
+-----------------------------------------------------------------------     
+compute05-beaker-tok02     
+899     
+05:40:39 load average: 37.64, 36.07, 35.26
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+control00-beaker-tok02 | CHANGED | rc=0 >>
+Cluster name: tripleo_cluster
+Cluster Summary:
+  * Stack: corosync
+  * Current DC: control00-beaker-tok02 (version 2.0.3-5.el8_2.1-4b1f869f0f) - partition with quorum
+  * Last updated: Mon May 24 05:40:45 2021
+  * Last change:  Sat May 15 17:16:22 2021 by root via crm_resource on control00-beaker-tok02
+  * 15 nodes configured
+  * 44 resource instances configured
+
+Node List:
+  * Online: [ control00-beaker-tok02 control01-beaker-tok02 control02-beaker-tok02 ]
+  * GuestOnline: [ galera-bundle-0@control00-beaker-tok02 galera-bundle-1@control01-beaker-tok02 galera-bundle-2@control02-beaker-tok02 ovn-dbs-bundle-0@control02-beaker-tok02 ovn-dbs-bundle-1@control00-beaker-tok02 ovn-dbs-bundle-2@control01-beaker-tok02 rabbitmq-bundle-0@control00-beaker-tok02 rabbitmq-bundle-1@control01-beaker-tok02 rabbitmq-bundle-2@control02-beaker-tok02 redis-bundle-0@control00-beaker-tok02 redis-bundle-1@control01-beaker-tok02 redis-bundle-2@control02-beaker-tok02 ]
+
+Full List of Resources:
+  * Container bundle set: galera-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-mariadb:pcmklatest]:
+    * galera-bundle-0	(ocf::heartbeat:galera):	Master control00-beaker-tok02
+    * galera-bundle-1	(ocf::heartbeat:galera):	Master control01-beaker-tok02
+    * galera-bundle-2	(ocf::heartbeat:galera):	Master control02-beaker-tok02
+  * Container bundle set: rabbitmq-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-rabbitmq:pcmklatest]:
+    * rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started control00-beaker-tok02
+    * rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started control01-beaker-tok02
+    * rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started control02-beaker-tok02
+  * Container bundle set: redis-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-redis:pcmklatest]:
+    * redis-bundle-0	(ocf::heartbeat:redis):	Slave control00-beaker-tok02
+    * redis-bundle-1	(ocf::heartbeat:redis):	Master control01-beaker-tok02
+    * redis-bundle-2	(ocf::heartbeat:redis):	Slave control02-beaker-tok02
+  * ip-10.212.200.4	(ocf::heartbeat:IPaddr2):	Started control01-beaker-tok02
+  * ip-169.56.41.4	(ocf::heartbeat:IPaddr2):	Started control01-beaker-tok02
+  * ip-10.212.200.67	(ocf::heartbeat:IPaddr2):	Started control02-beaker-tok02
+  * Container bundle set: haproxy-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-haproxy:pcmklatest]:
+    * haproxy-bundle-podman-0	(ocf::heartbeat:podman):	Started control00-beaker-tok02
+    * haproxy-bundle-podman-1	(ocf::heartbeat:podman):	Started control01-beaker-tok02
+    * haproxy-bundle-podman-2	(ocf::heartbeat:podman):	Started control02-beaker-tok02
+  * Container bundle set: ovn-dbs-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-ovn-northd:pcmklatest]:
+    * ovn-dbs-bundle-0	(ocf::ovn:ovndb-servers):	Master control02-beaker-tok02
+    * ovn-dbs-bundle-1	(ocf::ovn:ovndb-servers):	Slave control00-beaker-tok02
+    * ovn-dbs-bundle-2	(ocf::ovn:ovndb-servers):	Slave control01-beaker-tok02
+  * ip-10.212.200.41	(ocf::heartbeat:IPaddr2):	Started control02-beaker-tok02
+  * Container bundle: openstack-cinder-volume [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-cinder-volume:pcmklatest]:
+    * openstack-cinder-volume-podman-0	(ocf::heartbeat:podman):	Started control00-beaker-tok02
+
+Daemon Status:
+  corosync: active/enabled
+  pacemaker: active/enabled
+  pcsd: active/enabled
+----------------------------------------------------------------------------

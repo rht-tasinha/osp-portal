@@ -1,0 +1,122 @@
+Mon May 24 05:41:08 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+05:41:09 load average: 2.64, 1.58, 1.29
+-----------------------------------------------------------------------/bin/sh:     
+control-api00-animal-dal10     
+22     
+05:41:10 load average: 1.07, 1.36, 1.35
+-----------------------------------------------------------------------     
+control-api01-animal-dal10     
+22     
+05:41:09 load average: 1.71, 1.61, 1.31
+-----------------------------------------------------------------------     
+control-db00-animal-dal10     
+2     
+05:41:10 load average: 0.08, 0.25, 0.27
+-----------------------------------------------------------------------     
+control-api02-animal-dal10     
+22     
+05:41:09 load average: 1.11, 1.51, 1.54
+-----------------------------------------------------------------------     
+control-db01-animal-dal10     
+2     
+05:41:09 load average: 0.18, 0.31, 0.36
+-----------------------------------------------------------------------     
+compute00-animal-dal10     
+260     
+05:41:49 load average: 9.72, 10.36, 11.06
+-----------------------------------------------------------------------     
+compute01-animal-dal10     
+246     
+05:41:16 load average: 17.30, 17.67, 18.06
+-----------------------------------------------------------------------     
+control-db02-animal-dal10     
+2     
+05:41:07 load average: 0.15, 0.21, 0.29
+-----------------------------------------------------------------------     
+control-nw00-animal-dal10     
+22     
+05:41:12 load average: 0.02, 0.04, 0.04
+-----------------------------------------------------------------------     
+control-nw01-animal-dal10     
+22     
+05:41:11 load average: 0.00, 0.02, 0.01
+-----------------------------------------------------------------------     
+control-nw02-animal-dal10     
+22     
+05:41:08 load average: 0.12, 0.06, 0.01
+-----------------------------------------------------------------------     
+compute02-animal-dal10     
+229     
+05:41:35 load average: 8.49, 8.15, 8.00
+-----------------------------------------------------------------------     
+compute04-animal-dal10     
+79     
+05:41:27 load average: 10.15, 9.95, 10.56
+-----------------------------------------------------------------------     
+compute03-animal-dal10     
+220     
+05:41:28 load average: 14.58, 15.17, 15.81
+-----------------------------------------------------------------------     
+compute05-animal-dal10     
+86     
+05:40:33 load average: 11.95, 12.27, 12.25
+-----------------------------------------------------------------------     
+compute06-animal-dal10     
+83     
+05:41:02 load average: 17.26, 13.76, 12.63
+-----------------------------------------------------------------------     
+compute07-animal-dal10     
+68     
+05:41:14 load average: 9.39, 9.91, 8.79
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+control-api00-animal-dal10 | CHANGED | rc=0 >>
+Cluster name: tripleo_cluster
+Cluster Summary:
+  * Stack: corosync
+  * Current DC: control-api00-animal-dal10 (version 2.0.3-5.el8_2.4-4b1f869f0f) - partition with quorum
+  * Last updated: Mon May 24 05:41:15 2021
+  * Last change:  Tue May 18 04:05:44 2021 by root via cibadmin on control-db00-animal-dal10
+  * 18 nodes configured
+  * 44 resource instances configured
+
+Node List:
+  * Online: [ control-api00-animal-dal10 control-api01-animal-dal10 control-api02-animal-dal10 control-db00-animal-dal10 control-db01-animal-dal10 control-db02-animal-dal10 ]
+  * GuestOnline: [ galera-bundle-0@control-db00-animal-dal10 galera-bundle-1@control-db01-animal-dal10 galera-bundle-2@control-db02-animal-dal10 ovn-dbs-bundle-0@control-api00-animal-dal10 ovn-dbs-bundle-1@control-api01-animal-dal10 ovn-dbs-bundle-2@control-api02-animal-dal10 rabbitmq-bundle-0@control-db00-animal-dal10 rabbitmq-bundle-1@control-db02-animal-dal10 rabbitmq-bundle-2@control-db01-animal-dal10 redis-bundle-0@control-api00-animal-dal10 redis-bundle-1@control-api01-animal-dal10 redis-bundle-2@control-api02-animal-dal10 ]
+
+Full List of Resources:
+  * Container bundle set: galera-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-mariadb:pcmklatest]:
+    * galera-bundle-0	(ocf::heartbeat:galera):	Master control-db00-animal-dal10
+    * galera-bundle-1	(ocf::heartbeat:galera):	Master control-db01-animal-dal10
+    * galera-bundle-2	(ocf::heartbeat:galera):	Master control-db02-animal-dal10
+  * Container bundle set: redis-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-redis:pcmklatest]:
+    * redis-bundle-0	(ocf::heartbeat:redis):	Master control-api00-animal-dal10
+    * redis-bundle-1	(ocf::heartbeat:redis):	Slave control-api01-animal-dal10
+    * redis-bundle-2	(ocf::heartbeat:redis):	Slave control-api02-animal-dal10
+  * ip-10.38.101.4	(ocf::heartbeat:IPaddr2):	Started control-api00-animal-dal10
+  * ip-150.239.19.4	(ocf::heartbeat:IPaddr2):	Started control-api01-animal-dal10
+  * ip-10.38.101.61	(ocf::heartbeat:IPaddr2):	Started control-api00-animal-dal10
+  * Container bundle set: haproxy-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-haproxy:pcmklatest]:
+    * haproxy-bundle-podman-0	(ocf::heartbeat:podman):	Started control-api00-animal-dal10
+    * haproxy-bundle-podman-1	(ocf::heartbeat:podman):	Started control-api01-animal-dal10
+    * haproxy-bundle-podman-2	(ocf::heartbeat:podman):	Started control-api02-animal-dal10
+  * Container bundle set: rabbitmq-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-rabbitmq:pcmklatest]:
+    * rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started control-db00-animal-dal10
+    * rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started control-db02-animal-dal10
+    * rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started control-db01-animal-dal10
+  * Container bundle set: ovn-dbs-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-ovn-northd:pcmklatest]:
+    * ovn-dbs-bundle-0	(ocf::ovn:ovndb-servers):	Master control-api00-animal-dal10
+    * ovn-dbs-bundle-1	(ocf::ovn:ovndb-servers):	Slave control-api01-animal-dal10
+    * ovn-dbs-bundle-2	(ocf::ovn:ovndb-servers):	Slave control-api02-animal-dal10
+  * ip-10.38.101.85	(ocf::heartbeat:IPaddr2):	Started control-api00-animal-dal10
+  * Container bundle: openstack-cinder-volume [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-cinder-volume:pcmklatest]:
+    * openstack-cinder-volume-podman-0	(ocf::heartbeat:podman):	Started control-api00-animal-dal10
+
+Daemon Status:
+  corosync: active/enabled
+  pacemaker: active/enabled
+  pcsd: active/enabled
+----------------------------------------------------------------------------
