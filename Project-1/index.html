@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Tut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    img {
+        width: 40px;
+    }
+
+    .navbar {
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 10px 5px;
+    }
+
+    .navbar li a {
+        padding: 2px 2px;
+        text-decoration: none;
+        color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        font-family: 'Baloo Bhai 2', cursive;
+        ;
+    }
+
+    .container {
+        /* background-color: black; */
+        height: 500px;
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 5px;
+        /* initilie the container as a flex box */
+        display: flex;
+        /* Flex properties for flex containers * */
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* justify-content: space-between; */
+        justify-content: space-evenly;
+        /* align-items: center; */
+
+    }
+
+    .item {
+        background-color: yellowgreen;
+        border: 2px solid black;
+        /* width: ; */
+        margin: 10px;
+        padding: 5px;
+    }
+
+    p,
+    h3{
+        /* text-align: left;
+            text-align: right;
+            text-align: center;  */
+        text-align: justify;
+
+    }
+</style>
+</header>
+<nav class="navbar">
+    <ul>
+        <li><a href="#"> <img src="img/Logo-RedHat-Hat-Color-RGB.png"></a></li>
+        <li><a href="#"> Home </a> </li>
+        <li><a href="#"> DataCenter</a> </li>
+        <li><a href="#"> Ceph Storage </a> </li>
+        <li><a href="#"> Red Hat Case</a> </li>
+        <li><a href="#"> IBM Case</a> </li>
+        <li><a href="#"> Contact Novello Admin</a> </li>
+    </ul>
+</nav>
+</header>
+<!-- <h5>Overcommit ratio (vCPU, OVS ports, etc.) result from all regions and clusters
+        <p>Results will be refreshed every 15 minutes</p>
+    </h5> -->
+<body>
+
+    <h1>Welcome to Novello OSP Portal for cluster health</h1>
+    <h4>Overcommit ratio (vCPU, OVS ports, etc.) result from all regions and clusters
+        <p>Results will be refreshed every 15 minutes</p>
+    </h4>
+    <div class="container">
+
+        <div class="item" id="item-1">
+            <h3>NA (Floyd)</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+        </div>
+
+        <div class="item" id="item-2">
+            <h3>APAC (Beaker)</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+        </div>
+        <div class="item" id="item-3">
+            <h3>EMEA (Scooter)</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+
+        </div>
+        
+        <div class="item" id="item-4">
+                <h3> NA Stage (Animal)</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                    praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                    neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+            </div>
+            
+            <div class="item" id="item-5">
+                <h3>Rackspace (Dagoba)</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                    praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                    neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+
+            </div>
+        </div>
+</body>
+
+</html>

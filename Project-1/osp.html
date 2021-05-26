@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Overcommit Status</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap"
+        rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <style>
+        img{
+            width: 40px;
+        }
+        .navbar {
+            background-color: black;
+            border-radius: 5px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none;
+            margin: 10px 5px;
+            
+           
+        }
+        .navbar li a{
+            padding: 2px 2px;
+            text-decoration: none;
+            color: white;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* font-family: 'Source Sans Pro', sans-serif; */
+            font-family: 'Baloo Bhai 2', cursive;;
+        } 
+
+        .contianer {
+            width: 900px;
+            border: 3px solid blue;
+             margin: auto; 
+            background-color: rgb(223, 187, 187);
+        }
+
+         .item {
+            border: 3px solid red;
+            margin: 10px 3px;
+            padding: 10px 3px;
+            background: rgb(192, 201, 201);
+        }
+
+        #animal {
+            float: left;
+            width: 23%;
+            /* margin-left: auto; */
+            margin: 5px;
+            margin-left: 20px;
+        }
+
+        #Floyd {
+            float: left;
+            width: 23%;
+            /* margin-left: auto; */
+            margin: 5px;
+        }
+
+         #beaker {
+            float: left;
+            /* clear: left;  */
+            width: 23%;
+            /* margin-left: auto; */
+            margin: 5px;
+        } 
+
+         #scooter { 
+            float: left;
+            width: 23%;
+            /* margin-left: auto; */
+            margin: 5px;
+        } 
+        
+
+         p,
+        h5 {
+            text-align: left;
+            text-align: right;
+            text-align: center; 
+            text-align: justify;
+
+        } 
+    </style>
+</head>
+
+<body>
+    <!-- <header class="top">
+        <img src="img/Logo-RedHat-Hat-Color-RGB.png"
+
+    </header> -->
+
+    </header> 
+        <nav class="navbar">
+            <ul>
+                <li><a href="#"> <img src="img/Logo-RedHat-Hat-Color-RGB.png"></a></li>
+                <li><a href="#"> Home </a> </li>
+                <li><a href="#"> DataCenter</a> </li>
+                <li><a href="#"> Ceph Storage </a> </li>
+                <li><a href="#"> Red Hat Case</a> </li>
+                <li><a href="#"> IBM Case</a> </li>
+                <li><a href="#"> Contact Novello Admin</a> </li>
+            </ul>
+         </nav>   
+    </header>
+    <!-- <h5>Overcommit ratio (vCPU, OVS ports, etc.) result from all regions and clusters
+        <p>Results will be refreshed every 15 minutes</p>
+    </h5> -->
+    <div class="container">
+        <h2>Welcome to Novello OSP Portal for cluster health</h2>
+        <div id="animal" class="item">
+            <h5>NA Stage</h5>
+            <p id="animalpara" class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci officiis
+                praesentium quas obcaecati placeat voluptatum in exercitationem veniam, esse, doloremque earum, vel
+                neque eum dolor. Accusantium facilis cumque ullam nulla!</p>
+                
+        </div>
+        <div id="Floyd" class="item">
+            <h5>NA prod</h5>
+            <p id="floydpara" class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quaerat laborum
+                tenetur placeat nobis, officiis incidunt repudiandae saepe fugiat delectus reiciendis natus corrupti
+                quas sit dolor corporis dolore nam dicta!</p>
+        </div>
+        <div id="beaker" class="item">
+            <h5>APAC</h5>
+            <p id="beakerpara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea illum deleniti a
+                earum doloremque enim mollitia laboriosam iusto provident fugit, illo officiis dolorum, tempore ad,
+                veniam aspernatur sapiente! Nam, omnis!</p>
+        </div>
+        <div id="scooter" class="item">
+            <h5>EMEA</h5>
+            <p id="scooterpara" class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam,
+                corrupti saepe. Atque nihil non tempore soluta, labore beatae minus illum tempora quae nam consequatur
+                maxime deleniti sequi rem sapiente libero!</p>
+        </div>
+    </div>
+</body>
+
+</html>
