@@ -1,0 +1,27 @@
+Last run time:  Mon May 24 05:36:22 UTC 2021
+---------------------------------------------
+-------------------GLS AZ-------------------
+        " vCPU allocation ratio: 2.59",
+        "Sum of allocated vCPUs: 3724",
+        " Sum of physical vCPUs: 1440",
+        "      Sum of OVS ports: 3545",
+        ""
+--
+        "  Shelved/active ratio: 0.8",
+        "     Shelved instances: 1854",
+        "      Active instances: 2330",
+        "       Total OVN ports: 12223",
+        " Total OpenStack ports: 9249"
+---------------------------------------------
+-------------------OCP AZ--------------------
+        " vCPU allocation ratio: 1.25",
+        "Sum of allocated vCPUs: 2404",
+        " Sum of physical vCPUs: 1920",
+        "      Sum of OVS ports: 1589",
+        ""
+--
+        "  Shelved/active ratio: 0.8",
+        "     Shelved instances: 1854",
+        "      Active instances: 2329",
+        "       Total OVN ports: 12223",
+        " Total OpenStack ports: 9249"
