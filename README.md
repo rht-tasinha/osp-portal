@@ -2,6 +2,7 @@
 OpenStack Portal for cluster health
 -----------------------------------
 Working on portal with HTML/CSS/JavaScript
+
 Few important resources/tools that will help you to make it cool website.
 -------------------------------------------------------------------------
 1) Font Awesome is a font and icon toolkit based on CSS and Less
