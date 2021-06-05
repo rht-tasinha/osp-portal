@@ -28,7 +28,7 @@ https://mixkit.co/
 8) JSONPlaceholder is a free online REST API that you can use whenever you need some fake data.
 https://jsonplaceholder.typicode.com/
 
-9). What does TinyPNG do? TinyPNG uses smart lossy compression techniques to reduce the file size of your PNG files
+9) What does TinyPNG do? TinyPNG uses smart lossy compression techniques to reduce the file size of your PNG files
 https://tinypng.com/
 
 10) JPEG-Optimizer is a free online tool for resizing and compressing your digital photos and images for displaying on the web in forums or blogs
