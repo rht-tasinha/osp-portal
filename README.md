@@ -35,3 +35,5 @@ https://tinypng.com/ - automatic!
 
 10) JPEG-Optimizer is a free online tool for resizing and compressing your digital photos and images for displaying on the web in forums or blogs
 http://jpeg-optimizer.com/
+
+http://github.com - automatic!
