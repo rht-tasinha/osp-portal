@@ -33,4 +33,6 @@ https://tinypng.com/
 10) JPEG-Optimizer is a free online tool for resizing and compressing your digital photos and images for displaying on the web in forums or blogs :point_right:	
 http://jpeg-optimizer.com/
 
-:thumbsup:
+README formating (Markdown lang)
+12)  https://www.makeareadme.com/
+13) https://readme.so/editor
