@@ -1,0 +1,14 @@
+# Status of CEPH storage on floyd #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    hdd        35 TiB      20 TiB      15 TiB       15 TiB         43.09 
+    ssd       419 TiB     235 TiB     183 TiB      184 TiB         43.90 
+    TOTAL     454 TiB     255 TiB     198 TiB      199 TiB         43.84 
+ 
+POOLS:
+    POOL            ID     STORED     OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1     35 TiB       4.57M     104 TiB     35.09        64 TiB 
+    cinder_pool      2     32 TiB       8.58M      94 TiB     32.81        64 TiB 
+    nova_pool        3     82 MiB       1.65k     271 MiB         0        64 TiB 
