@@ -1,7 +1,3 @@
-### osp-portal
-##### OpenStack Portal for cluster health
-
-=======
 ### Web Development on osp-portal (https://openstack-status.ole.redhat.com/ratio/)
 #### OpenStack Portal for cluster health
 
