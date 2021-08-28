@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### osp-portal
 ##### OpenStack Portal for cluster health
 
@@ -41,4 +40,3 @@ http://jpeg-optimizer.com/
 README formating (Markdown lang)
 12)  https://www.makeareadme.com/
 13) https://readme.so/editor
->>>>>>> origin/feature
