@@ -1,0 +1,58 @@
+Sat Aug 28 14:16:18 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+14:16:21 load average: 1.88, 1.06, 0.89
+-----------------------------------------------------------------------/bin/sh:     
+control00-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+control01-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+control02-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute00-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute01-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute02-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute04-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute05-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+compute03-dagoba-dfw3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+control00-dagoba-dfw3 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange",
+    "unreachable": true
+}
+----------------------------------------------------------------------------

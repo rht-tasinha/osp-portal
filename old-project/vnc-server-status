@@ -1,0 +1,271 @@
+------------------------------------------------------------------
+Current Active VNC user from all the VNC nodes across the region
+Last run time:  Sat Aug 28 14:15:03 UTC 2021
+------------------------------------------------------------------
+------------------------------------------------------------------
+Cluster: beaker
+------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc03-beaker-tok02.ole.redhat.com
+        Number of current active user sessions: 16
+        ------------------------------------------------------------------
+        Current Load Avg of vnc03-beaker-tok02.ole.redhat.com:
+         14:15:13 up 96 days, 17:27,  1 user,  load average: 0.00, 0.02, 0.04
+        ------------------------------------------------------------------
+        Current Memory status of vnc03-beaker-tok02.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        1596        3290         406        2878        5488
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc02-beaker-tok02.ole.redhat.com
+        Number of current active user sessions: 9
+        ------------------------------------------------------------------
+        Current Load Avg of vnc02-beaker-tok02.ole.redhat.com:
+         14:15:13 up 96 days, 16:10,  1 user,  load average: 0.06, 0.06, 0.06
+        ------------------------------------------------------------------
+        Current Memory status of vnc02-beaker-tok02.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2219        2695         392        2850        4879
+        Swap:          1023           1        1022
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc00-beaker-tok02.ole.redhat.com
+        Number of current active user sessions: 17
+        ------------------------------------------------------------------
+        Current Load Avg of vnc00-beaker-tok02.ole.redhat.com:
+         14:15:13 up 96 days, 16:10,  1 user,  load average: 0.08, 0.02, 0.01
+        ------------------------------------------------------------------
+        Current Memory status of vnc00-beaker-tok02.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2188        2528         393        3048        4910
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc04-beaker-tok02.ole.redhat.com
+        Number of current active user sessions: 21
+        ------------------------------------------------------------------
+        Current Load Avg of vnc04-beaker-tok02.ole.redhat.com:
+         14:15:13 up 96 days, 17:27,  1 user,  load average: 0.15, 0.08, 0.08
+        ------------------------------------------------------------------
+        Current Memory status of vnc04-beaker-tok02.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        1841        3041         406        2881        5249
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc01-beaker-tok02.ole.redhat.com
+        Number of current active user sessions: 15
+        ------------------------------------------------------------------
+        Current Load Avg of vnc01-beaker-tok02.ole.redhat.com:
+         14:15:13 up 96 days, 16:10,  1 user,  load average: 0.16, 0.06, 0.01
+        ------------------------------------------------------------------
+        Current Memory status of vnc01-beaker-tok02.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2161        2578         393        3025        4936
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+
+------------------------------------------------------------------
+Cluster: floyd
+------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc02-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 9
+        ------------------------------------------------------------------
+        Current Load Avg of vnc02-floyd-dal10.ole.redhat.com:
+         14:15:22 up 125 days, 23:57,  1 user,  load average: 0.04, 0.06, 0.02
+        ------------------------------------------------------------------
+        Current Memory status of vnc02-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2521        1831         432        3412        4539
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc01-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 10
+        ------------------------------------------------------------------
+        Current Load Avg of vnc01-floyd-dal10.ole.redhat.com:
+         14:15:22 up 125 days, 23:57,  1 user,  load average: 0.01, 0.05, 0.01
+        ------------------------------------------------------------------
+        Current Memory status of vnc01-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2478        1876         432        3409        4583
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc04-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 9
+        ------------------------------------------------------------------
+        Current Load Avg of vnc04-floyd-dal10.ole.redhat.com:
+         14:15:22 up 125 days, 23:55,  1 user,  load average: 0.06, 0.02, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc04-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        1705        2894         424        3165        5363
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc03-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 6
+        ------------------------------------------------------------------
+        Current Load Avg of vnc03-floyd-dal10.ole.redhat.com:
+         14:15:23 up 125 days, 23:55,  2 users,  load average: 0.00, 0.00, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc03-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2382        2028         400        3353        4712
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc00-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 15
+        ------------------------------------------------------------------
+        Current Load Avg of vnc00-floyd-dal10.ole.redhat.com:
+         14:15:23 up 125 days, 23:57,  1 user,  load average: 0.06, 0.02, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc00-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2574        1784         432        3406        4486
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc05-floyd-dal10.ole.redhat.com
+        Number of current active user sessions: 14
+        ------------------------------------------------------------------
+        Current Load Avg of vnc05-floyd-dal10.ole.redhat.com:
+         14:15:24 up 125 days, 23:55,  1 user,  load average: 0.09, 0.08, 0.02
+        ------------------------------------------------------------------
+        Current Memory status of vnc05-floyd-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2660        1688         424        3415        4408
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+
+------------------------------------------------------------------
+Cluster: dagoba
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+Cluster: animal
+------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc00-animal-dal10.ole.redhat.com
+        Number of current active user sessions: 1
+        ------------------------------------------------------------------
+        Current Load Avg of vnc00-animal-dal10.ole.redhat.com:
+         14:15:38 up 60 days, 21:32,  1 user,  load average: 0.00, 0.00, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc00-animal-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7807        1724        2799         404        3284        5412
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc02-animal-dal10.ole.redhat.com
+        Number of current active user sessions: 1
+        ------------------------------------------------------------------
+        Current Load Avg of vnc02-animal-dal10.ole.redhat.com:
+         14:15:40 up 60 days, 22:30,  1 user,  load average: 0.00, 0.00, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc02-animal-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7807        1552        3164         404        3090        5584
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc01-animal-dal10.ole.redhat.com
+        Number of current active user sessions: 0
+        ------------------------------------------------------------------
+        Current Load Avg of vnc01-animal-dal10.ole.redhat.com:
+         14:15:40 up 60 days, 22:00,  1 user,  load average: 0.00, 0.02, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc01-animal-dal10.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7807        1650        2871         404        3285        5487
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+
+------------------------------------------------------------------
+Cluster: scooter
+------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc02-scooter-fra04.ole.redhat.com
+        Number of current active user sessions: 6
+        ------------------------------------------------------------------
+        Current Load Avg of vnc02-scooter-fra04.ole.redhat.com:
+         14:15:47 up 100 days, 20:53,  1 user,  load average: 0.01, 0.02, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc02-scooter-fra04.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2316        2202         407        3245        4774
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc00-scooter-fra04.ole.redhat.com
+        Number of current active user sessions: 4
+        ------------------------------------------------------------------
+        Current Load Avg of vnc00-scooter-fra04.ole.redhat.com:
+         14:15:49 up 100 days, 20:53,  1 user,  load average: 0.00, 0.00, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc00-scooter-fra04.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2312        2187         407        3264        4773
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc01-scooter-fra04.ole.redhat.com
+        Number of current active user sessions: 9
+        ------------------------------------------------------------------
+        Current Load Avg of vnc01-scooter-fra04.ole.redhat.com:
+         14:15:49 up 100 days, 20:53,  1 user,  load average: 0.02, 0.01, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc01-scooter-fra04.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2503        2025         405        3236        4587
+        Swap:          1023           2        1021
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc03-scooter-fra04.ole.redhat.com
+        Number of current active user sessions: 7
+        ------------------------------------------------------------------
+        Current Load Avg of vnc03-scooter-fra04.ole.redhat.com:
+         14:15:49 up 100 days, 20:54,  1 user,  load average: 0.00, 0.01, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc03-scooter-fra04.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        1467        3442         399        2855        5628
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+        ------------------------------------------------------------------
+        Hostname:  vnc04-scooter-fra04.ole.redhat.com
+        Number of current active user sessions: 9
+        ------------------------------------------------------------------
+        Current Load Avg of vnc04-scooter-fra04.ole.redhat.com:
+         14:15:49 up 100 days, 20:54,  1 user,  load average: 0.02, 0.02, 0.00
+        ------------------------------------------------------------------
+        Current Memory status of vnc04-scooter-fra04.ole.redhat.com:
+        ------------------------------------------------------------------
+                      total        used        free      shared  buff/cache   available
+        Mem:           7765        2263        2622         399        2879        4834
+        Swap:          1023           0        1023
+        ------------------------------------------------------------------
+

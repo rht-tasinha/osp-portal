@@ -1,0 +1,150 @@
+Sat Aug 28 14:19:40 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+14:19:42 load average: 0.98, 1.01, 0.91
+-----------------------------------------------------------------------/bin/sh:     
+control00-scooter-fra04     
+34     
+14:19:45 load average: 5.12, 5.30, 5.92
+-----------------------------------------------------------------------     
+compute00-scooter-fra04     
+488     
+14:19:45 load average: 20.06, 19.97, 19.65
+-----------------------------------------------------------------------     
+compute01-scooter-fra04     
+868     
+14:19:46 load average: 16.38, 15.89, 15.08
+-----------------------------------------------------------------------     
+control02-scooter-fra04     
+34     
+14:19:47 load average: 6.92, 5.69, 4.53
+-----------------------------------------------------------------------     
+control01-scooter-fra04     
+34     
+14:19:48 load average: 6.20, 6.85, 6.70
+-----------------------------------------------------------------------     
+compute02-scooter-fra04     
+450     
+14:19:50 load average: 22.54, 23.50, 24.15
+-----------------------------------------------------------------------     
+compute03-scooter-fra04     
+523     
+14:19:50 load average: 26.70, 27.89, 29.09
+-----------------------------------------------------------------------     
+compute04-scooter-fra04     
+393     
+14:19:51 load average: 17.14, 18.87, 19.55
+-----------------------------------------------------------------------     
+compute05-scooter-fra04     
+395     
+14:19:52 load average: 22.45, 21.79, 22.61
+-----------------------------------------------------------------------     
+compute06-scooter-fra04     
+456     
+14:19:53 load average: 33.93, 34.90, 33.81
+-----------------------------------------------------------------------     
+compute07-scooter-fra04     
+483     
+14:19:55 load average: 22.72, 20.96, 20.35
+-----------------------------------------------------------------------     
+compute08-scooter-fra04     
+425     
+14:19:55 load average: 18.85, 19.60, 19.71
+-----------------------------------------------------------------------     
+compute09-scooter-fra04     
+66     
+14:19:56 load average: 4.02, 3.59, 3.89
+-----------------------------------------------------------------------     
+compute10-scooter-fra04     
+33     
+14:19:56 load average: 0.28, 1.45, 2.80
+-----------------------------------------------------------------------     
+compute11-scooter-fra04     
+43     
+14:19:58 load average: 6.26, 6.31, 6.18
+-----------------------------------------------------------------------     
+compute13-scooter-fra04     
+57     
+14:20:00 load average: 7.54, 7.33, 7.12
+-----------------------------------------------------------------------     
+compute12-scooter-fra04     
+60     
+14:20:00 load average: 4.08, 4.55, 4.60
+-----------------------------------------------------------------------     
+compute14-scooter-fra04     
+68     
+14:20:01 load average: 9.89, 10.06, 9.87
+-----------------------------------------------------------------------     
+compute15-scooter-fra04     
+53     
+14:20:01 load average: 7.10, 6.71, 7.08
+-----------------------------------------------------------------------     
+compute16-scooter-fra04     
+46     
+14:20:03 load average: 3.80, 3.81, 4.09
+-----------------------------------------------------------------------     
+compute17-scooter-fra04     
+30     
+14:20:05 load average: 0.18, 0.31, 0.24
+-----------------------------------------------------------------------     
+compute18-scooter-fra04     
+45     
+14:20:05 load average: 5.27, 5.92, 5.46
+-----------------------------------------------------------------------     
+compute19-scooter-fra04     
+56     
+14:20:06 load average: 7.03, 6.92, 6.60
+-----------------------------------------------------------------------     
+compute20-scooter-fra04     
+44     
+14:20:06 load average: 4.16, 4.05, 3.99
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+control00-scooter-fra04 | CHANGED | rc=0 >>
+Cluster name: tripleo_cluster
+Cluster Summary:
+  * Stack: corosync
+  * Current DC: control00-scooter-fra04 (version 2.0.3-5.el8_2.4-4b1f869f0f) - partition with quorum
+  * Last updated: Sat Aug 28 14:20:12 2021
+  * Last change:  Sun May 30 20:15:33 2021 by root via cibadmin on control00-scooter-fra04
+  * 15 nodes configured
+  * 44 resource instances configured
+
+Node List:
+  * Online: [ control00-scooter-fra04 control01-scooter-fra04 control02-scooter-fra04 ]
+  * GuestOnline: [ galera-bundle-0@control00-scooter-fra04 galera-bundle-1@control01-scooter-fra04 galera-bundle-2@control02-scooter-fra04 ovn-dbs-bundle-0@control00-scooter-fra04 ovn-dbs-bundle-1@control01-scooter-fra04 ovn-dbs-bundle-2@control02-scooter-fra04 rabbitmq-bundle-0@control00-scooter-fra04 rabbitmq-bundle-1@control01-scooter-fra04 rabbitmq-bundle-2@control02-scooter-fra04 redis-bundle-0@control00-scooter-fra04 redis-bundle-1@control01-scooter-fra04 redis-bundle-2@control02-scooter-fra04 ]
+
+Full List of Resources:
+  * Container bundle set: galera-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-mariadb:pcmklatest]:
+    * galera-bundle-0	(ocf::heartbeat:galera):	Master control00-scooter-fra04
+    * galera-bundle-1	(ocf::heartbeat:galera):	Master control01-scooter-fra04
+    * galera-bundle-2	(ocf::heartbeat:galera):	Master control02-scooter-fra04
+  * Container bundle set: rabbitmq-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-rabbitmq:pcmklatest]:
+    * rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started control00-scooter-fra04
+    * rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started control01-scooter-fra04
+    * rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started control02-scooter-fra04
+  * Container bundle set: redis-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-redis:pcmklatest]:
+    * redis-bundle-0	(ocf::heartbeat:redis):	Master control00-scooter-fra04
+    * redis-bundle-1	(ocf::heartbeat:redis):	Slave control01-scooter-fra04
+    * redis-bundle-2	(ocf::heartbeat:redis):	Slave control02-scooter-fra04
+  * ip-10.240.200.4	(ocf::heartbeat:IPaddr2):	Started control00-scooter-fra04
+  * ip-161.156.15.4	(ocf::heartbeat:IPaddr2):	Started control01-scooter-fra04
+  * ip-10.240.200.63	(ocf::heartbeat:IPaddr2):	Started control02-scooter-fra04
+  * Container bundle set: haproxy-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-haproxy:pcmklatest]:
+    * haproxy-bundle-podman-0	(ocf::heartbeat:podman):	Started control00-scooter-fra04
+    * haproxy-bundle-podman-1	(ocf::heartbeat:podman):	Started control01-scooter-fra04
+    * haproxy-bundle-podman-2	(ocf::heartbeat:podman):	Started control02-scooter-fra04
+  * Container bundle set: ovn-dbs-bundle [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-ovn-northd:pcmklatest]:
+    * ovn-dbs-bundle-0	(ocf::ovn:ovndb-servers):	Master control00-scooter-fra04
+    * ovn-dbs-bundle-1	(ocf::ovn:ovndb-servers):	Slave control01-scooter-fra04
+    * ovn-dbs-bundle-2	(ocf::ovn:ovndb-servers):	Slave control02-scooter-fra04
+  * ip-10.240.200.61	(ocf::heartbeat:IPaddr2):	Started control00-scooter-fra04
+  * Container bundle: openstack-cinder-volume [cluster.common.tag/gls-prod-rhosp16_1-rhosp_16_1_containers-cinder-volume:pcmklatest]:
+    * openstack-cinder-volume-podman-0	(ocf::heartbeat:podman):	Started control01-scooter-fra04
+
+Daemon Status:
+  corosync: active/enabled
+  pacemaker: active/enabled
+  pcsd: active/enabled
+----------------------------------------------------------------------------

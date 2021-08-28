@@ -1,0 +1,148 @@
+Sat Jan  9 01:50:19 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+01:50:20 load average: 0.55, 0.67, 0.67
+-----------------------------------------------------------------------/bin/sh:     
+overcloud-rowlf-novacompute-dvr-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-10     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-11     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-12     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-13     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-14     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-15     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-16     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-17     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-19     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-18     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-20     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-21     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-23     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-22     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-24     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-4     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-7     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-5     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-8     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-novacompute-dvr-9     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-controller-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-controller-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rowlf-controller-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+overcloud-rowlf-controller-0 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange",
+    "unreachable": true
+}
+----------------------------------------------------------------------------

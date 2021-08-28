@@ -1,0 +1,178 @@
+Mon Mar  8 17:45:05 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+17:45:06 load average: 1.31, 0.77, 0.75
+-----------------------------------------------------------------------/bin/sh:     
+overcloud-fozzie-controller-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-controller-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-controller-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-10     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-11     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-12     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-14     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-16     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-17     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-18     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-20     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-21     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-24     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-22     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-25     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-23     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-26     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-28     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-27     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-29     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-30     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-31     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-5     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-4     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-32     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-6     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-7     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-8     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-fozzie-novacompute-dvr-9     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+overcloud-fozzie-controller-0 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange",
+    "unreachable": true
+}
+----------------------------------------------------------------------------

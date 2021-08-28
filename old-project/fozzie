@@ -1,0 +1,13 @@
+Last ran time:  Wed Oct  7 15:15:01 UTC 2020
+---------------------------------------------
+-------------------NOVA AZ-------------------
+        " vCPU allocation ratio: 3.87", 
+        "      Sum of OVS ports: 13720"
+        "   Shelved instances: 9485", 
+        "    Active instances: 4105", 
+---------------------------------------------
+-------------------OCP AZ--------------------
+        " vCPU allocation ratio: 1.46", 
+        "      Sum of OVS ports: 1964"
+        "   Shelved instances: 9493", 
+        "    Active instances: 4095", 

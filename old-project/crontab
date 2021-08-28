@@ -1,0 +1,54 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+# FT: FIXME: Eventually we should run everything as a single user. Probably some service
+# user that is isolated from everything else.
+# This currently (07-DEC-2020) causes an overlap in playbook runs.
+# Run this less often for now.
+### Adding OpenStack ports will add quite a bit of time as well.  Run every 30 mintes for now.
+# Back to 15 minutes
+*/15	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/get-cpu-shelve-ratio-from-bastion.sh
+#00	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/get-cpu-shelve-ratio-from-bastion.sh
+# Try every 20 minutes
+#*/20	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/get-cpu-shelve-ratio-from-bastion.sh
+
+############################### For EMEA High work load issue (OCT-28-2020), I made one more job to get rid of orphan-failed labs ########################################################
+#*/59    *       *       *       *       tasinha /bin/bash -f /content/Novello_Admins/delete-rollback-failed.sh; /bin/bash -f /content/Novello_Admins/delete-failed-stacks.sh
+# FT: Running this every 15 minutes is too quick.  It will take hours to run.
+############################################################################################################################################################################
+
+
+# Comment this because it is deleting CL110 stacks prematurely when they
+# are stopped and fail to delete the trunk ports
+#00	*	*	*	*	sapaul	umask 0002 ; /content/Novello_Admins/git/novello-scripts/custom_automation/delete-rollback-failed.sh
+# Do this more often than every six hours to make it faster to run
+# FIXME: Move to every two hours
+#00	*/4	*	*	*	sapaul	umask 0002 ; /content/Novello_Admins/git/novello-scripts/custom_automation/delete-failed-stacks.sh
+# Change back to sapaul when he has the new SSH keys (run gather-host-inventory-files.sh)
+#00	*/4	*	*	*	forrest	umask 0002 ; /content/Novello_Admins/git/novello-scripts/custom_automation/delete-failed-stacks.sh
+#30	22	*	*	*	sapaul	/home/sapaul/cleanup-scripts.sh	
+
+*/5	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/system-health-from-bastion.sh
+*/5	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/ceph-status.sh
+#*/5	*	*	*	*	root /content/Novello_Admins/git/novello-scripts/custom_automation/ceph-status.sh
+#*/15	*	*	*	*	tasinha /bin/bash -f /home/tasinha/tarak/vnc-user-status.sh > /var/www/overcommit/vnc-server-status
+*/15	*	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/get-vnc-active-users.sh
+57	23	*	*	*	tasinha /content/Novello_Admins/git/novello-scripts/custom_automation/archive-web-files.sh
+# rsync content to jumphost
+# This is no longer needed because we moved the web service directly to builder.
+# This uses information in /root/.ssh/{config,novello_rsa}
+#*	*	*	*	*	root rsync -avP --delete-delay /var/www/overcommit/ jumphost-floyd-dal10:/var/www/overcommit/
+
+#*	*	*	*	*	bchardim	rclone copy testfile  ibmcloud-cos:/dle-idm-archive/
+

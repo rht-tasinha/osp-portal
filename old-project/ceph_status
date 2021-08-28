@@ -1,0 +1,61 @@
+CEPH Health from each cluster: (Stage, NA, APAC, EMEA) DATE: Sat Aug 28 14:20:02 UTC 2021
+-----------------------------------
+# Status of CEPH storage on floyd #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    hdd        35 TiB      19 TiB      16 TiB       16 TiB         45.26 
+    ssd       419 TiB     226 TiB     193 TiB      193 TiB         46.07 
+    TOTAL     454 TiB     245 TiB     208 TiB      209 TiB         46.00 
+ 
+POOLS:
+    POOL            ID     STORED     OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1     35 TiB       4.66M     106 TiB     37.02        60 TiB 
+    cinder_pool      2     34 TiB       9.28M     102 TiB     35.98        60 TiB 
+    nova_pool        3     91 MiB       1.84k     302 MiB         0        60 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on scooter #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    ssd       454 TiB     284 TiB     170 TiB      170 TiB         37.54 
+    TOTAL     454 TiB     284 TiB     170 TiB      170 TiB         37.54 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      31 TiB       4.12M      94 TiB     29.75        74 TiB 
+    cinder_pool      2      26 TiB       6.95M      76 TiB     25.38        74 TiB 
+    nova_pool        3     102 MiB       2.12k     319 MiB         0        74 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on beaker #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    ssd       454 TiB     247 TiB     206 TiB      207 TiB         45.54 
+    TOTAL     454 TiB     247 TiB     206 TiB      207 TiB         45.54 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      31 TiB       4.04M      92 TiB     34.46        59 TiB 
+    cinder_pool      2      38 TiB      10.40M     114 TiB     39.34        59 TiB 
+    nova_pool        3     112 MiB       2.30k     348 MiB         0        59 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on animal #
+HEALTH_OK
+--------------------------------------------------------------------------
+RAW STORAGE:
+    CLASS     SIZE        AVAIL       USED        RAW USED     %RAW USED 
+    hdd       140 TiB      47 TiB      93 TiB       93 TiB         66.67 
+    ssd       210 TiB      75 TiB     134 TiB      135 TiB         64.26 
+    TOTAL     349 TiB     121 TiB     227 TiB      228 TiB         65.22 
+ 
+POOLS:
+    POOL            ID     STORED      OBJECTS     USED        %USED     MAX AVAIL 
+    glance_pool      1      67 TiB       8.82M     202 TiB     84.65        12 TiB 
+    cinder_pool      2     8.5 TiB       2.27M      26 TiB     41.12        12 TiB 
+    nova_pool        3      77 GiB      10.92k     236 GiB      0.63        12 TiB 
+--------------------------------------------------------------------------
+# Status of CEPH storage on dagoba #

@@ -1,0 +1,101 @@
+-------------------Current Number of OVS Ports used & load average of host-------------------
+overcloud-rizzo-controller-0     
+1995     
+16:10:03 load average: 2.24, 3.78, 4.50
+-----------------------------------------------------------------------     
+overcloud-rizzo-controller-2     
+2013     
+16:10:03 load average: 2.66, 3.15, 4.13
+-----------------------------------------------------------------------     
+overcloud-rizzo-controller-1     
+2003     
+16:10:03 load average: 2.33, 3.32, 3.48
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-17     
+97     
+16:10:03 load average: 6.13, 9.59, 11.38
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-16     
+124     
+16:10:03 load average: 17.00, 16.45, 18.29
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-15     
+80     
+16:10:03 load average: 3.42, 6.76, 11.05
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-14     
+118     
+16:10:03 load average: 10.40, 11.70, 12.23
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-12     
+116     
+16:10:03 load average: 12.45, 13.10, 13.91
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-13     
+106     
+16:10:03 load average: 17.50, 17.96, 20.31
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-11     
+293     
+16:10:03 load average: 13.10, 14.05, 16.54
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-10     
+96     
+16:10:04 load average: 5.13, 4.79, 5.03
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-0     
+1526     
+16:10:04 load average: 6.14, 6.31, 6.95
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-8     
+3515     
+16:10:04 load average: 7.54, 7.37, 7.84
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-5     
+2333     
+16:10:04 load average: 7.41, 7.89, 7.39
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-4     
+1443     
+16:10:03 load average: 10.23, 9.37, 9.32
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-1     
+915     
+16:10:04 load average: 6.75, 7.59, 7.98
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-6     
+2434     
+16:10:05 load average: 6.98, 7.42, 8.27
+-----------------------------------------------------------------------     
+undercloud     
+6     
+16:10:05 load average: 0.22, 0.38, 0.40
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-7     
+1332     
+16:10:06 load average: 9.56, 9.34, 9.59
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-9     
+3252     
+16:10:05 load average: 5.04, 5.87, 6.00
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-3     
+2239     
+16:10:05 load average: 5.96, 7.33, 7.19
+-----------------------------------------------------------------------     
+overcloud-rizzo-novacompute-dvr-2     
+1493     
+16:10:05 load average: 7.77, 8.59, 8.82
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+   rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rizzo-controller-0
+   rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rizzo-controller-1
+   rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rizzo-controller-2
+ ip-10.212.104.4	(ocf::heartbeat:IPaddr2):	Started overcloud-rizzo-controller-2
+ ip-162.133.95.4	(ocf::heartbeat:IPaddr2):	Started overcloud-rizzo-controller-0
+ ip-10.212.104.49	(ocf::heartbeat:IPaddr2):	Started overcloud-rizzo-controller-2
+   haproxy-bundle-docker-0	(ocf::heartbeat:docker):	Started overcloud-rizzo-controller-1
+   haproxy-bundle-docker-1	(ocf::heartbeat:docker):	Started overcloud-rizzo-controller-2
+   haproxy-bundle-docker-2	(ocf::heartbeat:docker):	Started overcloud-rizzo-controller-0
+   openstack-cinder-volume-docker-0	(ocf::heartbeat:docker):	Started overcloud-rizzo-controller-0
+----------------------------------------------------------------------------

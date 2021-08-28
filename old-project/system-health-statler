@@ -1,0 +1,47 @@
+-------------------Current Number of OVS Ports used & load average of host-------------------
+overcloud-statler-novacompute-dvr-4     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-novacompute-dvr-0     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-novacompute-dvr-1     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-novacompute-dvr-2     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-novacompute-dvr-3     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+undercloud     
+32     
+03:00:05 users, load average: 0.52, 0.42,
+-----------------------------------------------------------------------     
+overcloud-statler-controller-2     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-controller-1     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+overcloud-statler-controller-0     
+"changed":     
+"msg": via ssh: ssh: connect to
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+----------------------------------------------------------------------------

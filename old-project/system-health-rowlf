@@ -1,0 +1,109 @@
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+6     
+16:10:02 load average: 0.59, 0.38, 0.39
+-----------------------------------------------------------------------     
+overcloud-rowlf-controller-0     
+2092     
+16:10:03 load average: 3.59, 4.11, 4.51
+-----------------------------------------------------------------------     
+overcloud-rowlf-controller-2     
+1996     
+16:10:03 load average: 3.14, 3.47, 3.88
+-----------------------------------------------------------------------     
+overcloud-rowlf-controller-1     
+2045     
+16:10:03 load average: 2.17, 3.28, 3.92
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-3     
+535     
+16:10:03 load average: 5.39, 5.90, 5.92
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-2     
+1812     
+16:10:04 load average: 8.49, 7.21, 7.28
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-1     
+1161     
+16:10:04 load average: 7.69, 8.06, 8.39
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-0     
+1813     
+16:10:04 load average: 10.67, 9.74, 10.06
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-7     
+876     
+16:10:04 load average: 10.87, 11.15, 11.47
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-5     
+1279     
+16:10:04 load average: 6.99, 7.97, 8.88
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-4     
+1009     
+16:10:04 load average: 15.72, 14.87, 14.30
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-19     
+97     
+16:10:05 load average: 17.74, 17.12, 16.58
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-20     
+119     
+16:10:05 load average: 12.77, 12.63, 13.30
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-9     
+1073     
+16:10:05 load average: 9.36, 10.57, 10.71
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-8     
+1450     
+16:10:05 load average: 17.90, 17.34, 16.20
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-18     
+123     
+16:10:05 load average: 10.26, 11.31, 12.58
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-13     
+938     
+16:10:06 load average: 10.21, 10.35, 10.64
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-11     
+610     
+16:10:06 load average: 7.22, 7.13, 7.36
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-12     
+1392     
+16:10:06 load average: 20.98, 20.92, 20.92
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-17     
+149     
+16:10:06 load average: 21.42, 21.64, 21.43
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-10     
+678     
+16:10:06 load average: 7.16, 6.92, 7.70
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-16     
+90     
+16:10:06 load average: 10.25, 10.00, 11.75
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-15     
+120     
+16:10:07 load average: 29.48, 27.19, 27.17
+-----------------------------------------------------------------------     
+overcloud-rowlf-novacompute-dvr-14     
+246     
+16:10:07 load average: 13.86, 13.57, 13.98
+-----------------------------------------------------------------------     
+----------------------------------PCS STATUS---------------------------
+   rabbitmq-bundle-0	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rowlf-controller-2
+   rabbitmq-bundle-1	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rowlf-controller-1
+   rabbitmq-bundle-2	(ocf::heartbeat:rabbitmq-cluster):	Started overcloud-rowlf-controller-0
+ ip-10.240.17.4	(ocf::heartbeat:IPaddr2):	Started overcloud-rowlf-controller-1
+ ip-161.156.176.4	(ocf::heartbeat:IPaddr2):	Started overcloud-rowlf-controller-0
+ ip-10.240.17.44	(ocf::heartbeat:IPaddr2):	Started overcloud-rowlf-controller-1
+   haproxy-bundle-docker-0	(ocf::heartbeat:docker):	Started overcloud-rowlf-controller-2
+   haproxy-bundle-docker-1	(ocf::heartbeat:docker):	Started overcloud-rowlf-controller-1
+   haproxy-bundle-docker-2	(ocf::heartbeat:docker):	Started overcloud-rowlf-controller-0
+   openstack-cinder-volume-docker-0	(ocf::heartbeat:docker):	Started overcloud-rowlf-controller-0
+----------------------------------------------------------------------------

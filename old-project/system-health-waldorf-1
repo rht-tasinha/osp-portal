@@ -1,0 +1,33 @@
+Mon Mar  8 17:46:27 UTC 2021
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+17:46:30 load average: 0.69, 0.72, 0.73
+-----------------------------------------------------------------------/bin/sh:     
+overcloud-waldorf-controller-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-waldorf-controller-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-waldorf-controller-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-waldorf-novacompute-dvr-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+overcloud-waldorf-controller-0 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange",
+    "unreachable": true
+}
+----------------------------------------------------------------------------

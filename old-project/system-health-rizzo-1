@@ -1,0 +1,118 @@
+Mon Nov  2 01:36:09 UTC 2020
+-------------------Current Number of OVS Ports used & load average of host-------------------
+undercloud     
+0     
+01:36:11 load average: 2.58, 1.99, 1.96
+-----------------------------------------------------------------------/bin/sh:     
+overcloud-rizzo-controller-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-controller-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-controller-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-0     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-1     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-10     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-11     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-13     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-12     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-14     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-15     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-16     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-17     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-2     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-3     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-4     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-5     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-6     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-7     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-8     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+overcloud-rizzo-novacompute-dvr-9     
+"changed":     
+"msg": via ssh: Connection timed out
+"unreachable":     
+}     
+----------------------------------PCS STATUS---------------------------
+overcloud-rizzo-controller-0 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Connection timed out during banner exchange",
+    "unreachable": true
+}
+----------------------------------------------------------------------------
